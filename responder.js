@@ -10,7 +10,7 @@ function startGame()
     //recebe array e index de resposta
     possiveisCores = getCoresPergunta();
     resposta = getResposta();
-    
+
     //se usuário clicar enviar sem digitar nada
     while (respostaUsuario === "")
     {
@@ -45,6 +45,7 @@ function startGame()
         {   
             //se resposta existe, checa se está na mesma posição que o index da resposta
             if(i === resposta){
+
                 responseIsCorrect = true;
 
                 //muda cor do background, deixa botão invisível, exibe texto "you won!"
