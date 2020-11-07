@@ -1,0 +1,50 @@
+#background
+{
+    background-color: white;
+}
+
+#result
+{
+    visibility: hidden;
+    color:#5d5a69;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#gameButton
+{
+    background-color:#5d5a69;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 3px;
+    border:none;
+    display: inline-block;
+    color: white;
+    transition-duration: 0.4;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#gameButton:hover{
+    background-color: #999fac;
+    border:none;
+}
+
+#gameButton:disabled{
+    background-color:#d6d3d7;
+}
+.center
+{
+    padding-top: 5%;
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+
+#rodape
+{
+    padding-top: 5%;
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    color:#5d5a69;
+}
